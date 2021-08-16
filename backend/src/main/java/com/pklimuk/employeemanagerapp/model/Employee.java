@@ -25,13 +25,20 @@ public class Employee implements Serializable {
     private String imageUrl;
     @Column(nullable = false, updatable = false)
     private String employeeCode;
+    private String facebookUrl;
+    private String twitterUrl;
+    private String skypeUrl;
 
-    public Employee(String name, String email, String jobTitle, String phone, String imageUrl, String employeeCode) {
+    public Employee(String name, String email, String jobTitle, String phone, String imageUrl, String employeeCode,
+                    String facebookUrl, String twitterUrl, String skypeUrl) {
         this.name = name;
         this.email = email;
         this.jobTitle = jobTitle;
         this.phone = phone;
         this.imageUrl = imageUrl;
         this.employeeCode = employeeCode;
+        this.facebookUrl = facebookUrl;
+        this.twitterUrl = twitterUrl;
+        this.skypeUrl = skypeUrl;
     }
 }
