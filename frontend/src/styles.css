@@ -2,25 +2,42 @@
 @import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
 
 body{
-  margin-top:20px;
-  background: #f5f5f5;
+  margin-top: 0px;
+  background: #727272;
 }
 .card {
   border: none;
+  background-color: #fae5a1;
   -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
   box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
   margin-bottom: 30px;
+}
+.btn {
+  background-color: #5d7cb4;
+}
+.btn-primary {
+  background-color: #89aae7;
+}
+.btn-secondary {
+  background-color: #e73939;
+}
+.nav-link {
+  background-color: #03020c;
+}
+.list-group-item{
+  background-color: #fae5a1;
+  font-size: 17px;
 }
 .w-60 {
   width: 200px;
 }
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 10px;
-  font-weight: 600;
+  font-weight: 400;
 }
 .social-links li a {
   -webkit-border-radius: 50%;
-  background-color: rgba(89,206,181,.85);
+  background-color: rgba(117, 97, 206, 0.85);
   border-radius: 50%;
   color: #fff;
   display: inline-block;
@@ -28,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 30px;
   text-align: center;
   width: 30px;
-  font-size: 12px;
+  font-size: 15px;
 }
 a {
   color: #707070;
