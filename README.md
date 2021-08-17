@@ -8,4 +8,4 @@
 
 ### [This snippet](https://www.bootdey.com/snippets/view/bs4-contact-cards) has been used as a base.
 
-<img src="https://onedrive.live.com/?id=2AB301AD531D310%21108&amp;cid=02AB301AD531D310"/>App
+<img src="https://1drv.ms/u/s!AhDTMdUaMKsCbVKY-7VpM0n5O0w"/>App
